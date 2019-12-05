@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'dgicons';
-  src: url('https://cdn.designgrande.com/wp-content/themes/designgrande/assets/font/dgicons.eot');
-  src: url('https://cdn.designgrande.com/wp-content/themes/designgrande/assets/font/dgicons.eot#iefix') format('embedded-opentype'),
-       url('https://cdn.designgrande.com/wp-content/themes/designgrande/assets/font/dgicons.woff') format('woff'),
-       url('https://cdn.designgrande.com/wp-content/themes/designgrande/assets/font/dgicons.ttf') format('truetype'),
-       url('https://cdn.designgrande.com/wp-content/themes/designgrande/assets/font/dgicons.svg#dgicons') format('svg');
+  src: url('https://cdn.statically.io/gh/designgrande/assets/aed05213/font/dgicons.eot');
+  src: url('https://cdn.statically.io/gh/designgrande/assets/aed05213/font/dgicons.eot#iefix') format('embedded-opentype'),
+       url('https://cdn.statically.io/gh/designgrande/assets/aed05213/font/dgicons.woff') format('woff'),
+       url('https://cdn.statically.io/gh/designgrande/assets/aed05213/font/dgicons.woff2') format('woff2'),
+       url('https://cdn.statically.io/gh/designgrande/assets/aed05213/font/dgicons.ttf') format('truetype'),
+       url('https://cdn.statically.io/gh/designgrande/assets/aed05213/font/dgicons.svg#dgicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
