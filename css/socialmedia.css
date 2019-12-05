@@ -1,0 +1,136 @@
+.socializer{
+    padding:0;
+    margin:0;
+    display:inline-block
+}
+.socializer > *{
+    float:left;
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:inline-block;
+    position:relative
+}
+.socializer a{
+    font-family:sans-serif!important;
+    display:inline-block;
+    border:0;
+    text-align:center;
+    text-decoration:none;
+    width:16px;
+    height:16px;
+    line-height:18px;
+    font-size:8px;
+    transition:all 0.5s;
+    -webkit-transition:all 0.2s;
+    transition-timing-function:ease-out;
+    -webkit-transition-timing-function:ease-out
+}
+.socializer a > *{
+    display:inline-block;
+    vertical-align:middle;
+    padding:0;
+    margin:0;
+    color: #fff;
+}
+.socializer:after{
+    content:'';
+    clear:both;
+    display:block
+}
+.sr-32px{
+    min-height:32px
+}
+.sr-32px a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.socializer .sr-facebook a,.socializer .sr-facebook a:visited{
+    color:#3a579a;
+    border-color:#3a579a;
+    background-color:#3a579a
+}
+.socializer .sr-googleplus a,.socializer .sr-googleplus a:visited{
+    color:#df4a32;
+    border-color:#df4a32;
+    background-color:#df4a32
+}
+.socializer .sr-pinterest a,.socializer .sr-pinterest a:visited{
+    color:#c92228;
+    border-color:#c92228;
+    background-color:#c92228
+}
+.socializer .sr-twitter a,.socializer .sr-twitter a:visited{
+    color:#00abf0;
+    border-color:#00abf0;
+    background-color:#00abf0
+}
+.socializer .sr-linkedin a, .socializer .sr-linkedin a:visited {
+    color: #0077b5;
+    border-color: #0077b5;
+    background-color: #0077b5;
+}
+.sr-text-hover .text{
+    display:none;
+    position:absolute;
+    background:#000;
+    color:#fff;
+    font-size:12px;
+    width:100px;
+    top:-3em;
+    border-radius:5px;
+    text-align:center;
+    line-height:2em;
+    margin-left:-25%;
+    z-index:9999
+}
+.sr-icon-white.socializer a,.sr-icon-white.socializer a:visited{
+    color:#fff
+}
+.sr-vertical{
+    width:16px
+}
+.sr-vertical.sr-32px{
+    width:32px
+}
+.sr-vertical.sr-32px > *{
+    width:32px
+}
+.sr-sharebar{
+    position:fixed;
+    z-index:9999
+}
+.sr-sharebar .socializer > *:last-child{
+    margin:0
+}
+.sr-sb-vl{
+    top:50%;
+    transform:translateY(-50%)
+}
+.sr-sb-left{
+    left:0;
+}
+
+.socializer span:first-of-type a {
+    border-radius: 0 5px 0 0;
+}
+
+.socializer span:last-of-type a {
+    border-radius: 0 0 5px 0;
+}
+
+
+body .socializer a:hover {
+    background: #1d2733 !important;
+}
+
+@media screen and (max-width: 1023px) {
+  .sr-32px a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+}
